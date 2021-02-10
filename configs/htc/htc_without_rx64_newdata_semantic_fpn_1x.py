@@ -254,7 +254,7 @@ data = dict(
         pipeline=test_pipeline),
     test=dict(
         type=dataset_type,
-        ann_file=data_root + 'fish_super_resolution/fish_test/instances_shape_test_srnew3.json',
+        ann_file=data_root + 'fish_super_resolution/fish_test/instances_shape_test_sr.json',
         img_prefix=data_root + 'fish_super_resolution/fish_test/fish_image_sr/',
         pipeline=test_pipeline))
 evaluation = dict(interval=1, metric=['bbox', 'segm'])
@@ -281,7 +281,7 @@ log_config = dict(
 total_epochs = 12
 dist_params = dict(backend='nccl')
 log_level = 'INFO'
-work_dir = './work_dirs/htc_without_newdata_semantic_r50_fpn_1x'
+work_dir = './work_dirs/htc_without_rx64_newdata_semantic_fpn_1x'
 load_from = None
 resume_from = None
 workflow = [('train', 1)]
