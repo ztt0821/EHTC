@@ -1,5 +1,5 @@
 # EHTC
-This is the code of Fish image instance segmentation. 
+This is the code of Fish Image Instance Segmentation: An Enhanced Hybrid Task Cascade Approach which is accepted by IEEE ICSC 2021.
 We follow the code of https://github.com/open-mmlab/mmdetection and https://github.com/DmitryUlyanov/deep-image-prior.
 
 ## `Step 1`: 
