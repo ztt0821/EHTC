@@ -13,11 +13,11 @@ train and test the network like the example in https://github.com/ztt0821/mmdete
 
 go to configs/htc/
  
-htc_without_rx32_newdata_semantic_r50_1x.py   ehtc  
+htc_without_rx32_newdata_semantic_r50_1x.py         ehtc  
 
-htc_without_rx64_newdata_semantic_r50_1x.py   ehtc   [model](https://drive.google.com/file/d/18vPhHvfcZMECnYoaLhKtY8BHu3KzaBJ1/view?usp=sharing)
+htc_without_rx64_newdata_semantic_r50_1x.py         ehtc   [model](https://drive.google.com/file/d/18vPhHvfcZMECnYoaLhKtY8BHu3KzaBJ1/view?usp=sharing)
 
-htc_without_rx64_origdata_semantic_fpn_1x.py  ehtc   [model](https://drive.google.com/file/d/1FUo9Kg540DbuvOkmMCDlm-ulD5_ZCE2g/view?usp=sharing)
+htc_without_rx64_origdata_semantic_fpn_1x.py        ehtc   [model](https://drive.google.com/file/d/1FUo9Kg540DbuvOkmMCDlm-ulD5_ZCE2g/view?usp=sharing)
 
 other files are about HTC.
 
