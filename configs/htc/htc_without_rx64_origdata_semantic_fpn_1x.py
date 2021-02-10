@@ -281,7 +281,6 @@ log_config = dict(
 total_epochs = 12
 dist_params = dict(backend='nccl')
 log_level = 'INFO'
-work_dir = './work_dirs/htc_without_orinew_semantic_r50_fpn_1x'
+work_dir = './work_dirs/htc_without_rx64_origdata_semantic_fpn_1x'
 load_from = None
-resume_from = './work_dirs/htc_without_orinew_semantic_r50_fpn_1x/epoch_5.pth'
 workflow = [('train', 1)]
